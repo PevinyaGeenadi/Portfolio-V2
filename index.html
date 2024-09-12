@@ -7,9 +7,22 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
+
+
+
 </head>
 <body>
-   <!-- <header> -->
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status">
+
+        <div class="preloader" aria-busy="true" aria-label="Loading, please wait." role="progressbar">
+        </div>
+
+    </div>
+</div>
+<!-- ./Preloader -->
+   <!-- <header>
    <nav>
        <ul>
            <li><a href="#Homes">Home</a></li>
@@ -19,7 +32,75 @@
            <li><a href="#contact">Contact</a></li>
        </ul>
    </nav>
-    <!-- </header> -->
+     </header> -->
 
+   <div>
+       <!-- slider section -->
+       <section class=" slider_section position-relative">
+           <div class="container-fluid">
+               <div class="row slider-row">
+                   <div class="col-lg-3 offset-lg-1">
+                       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                           <div class="carousel-inner">
+                               <div class="carousel-item active">
+                                   <div class="detail-box">
+                                       <h1>
+                                           I'm <br />
+                                           Pevinya Geenadi
+                                       </h1>
+                                       <p>
+                                           It is a long established fact that a reader will be distracted by the readable content of a page
+                                       </p>
+                                       <div>
+                                           <a href="#">
+                                               Request A Quote
+                                           </a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="carousel-item">
+                                   <div class="detail-box">
+                                       <h1>
+                                           Software <br />
+                                           Engineer
+                                       </h1>
+                                       <p>
+                                           It is a geena long established fact that a reader will be distracted by the readable content of a page
+                                       </p>
+                                       <div>
+                                           <a href="#">
+                                               Request A Quote
+                                           </a>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="carousel_control-box">
+                               <div class="carousel_btn-container">
+                                   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                       <span class="sr-only">Previous</span>
+                                   </a>
+                                   <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                       <span class="sr-only">Next</span>
+                                   </a>
+                               </div>
+                               <ol class="carousel-indicators">
+                                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active li_one">01</li>
+                                   <li data-target="#carouselExampleIndicators" data-slide-to="1" class="li_two">02</li>
+                                   <li class="ol_design"></li>
+                               </ol>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-lg-8 px-0">
+                       <div class="img-box">
+                           <img src="bg2.png" alt="" />
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+       <!-- end slider section -->
+   </div>
 </body>
 </html>
