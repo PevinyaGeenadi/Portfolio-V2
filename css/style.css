@@ -392,17 +392,50 @@ h4.animated-header {
 
 .about-img-div img {
     margin: 0 auto;
+    width: 400px;
+    display: block;
+    z-index: 2;
+    position: relative;
 }
 
 .about-border {
     position: absolute;
     border: 10px solid #425BB5;
-    width: 400px;
-    height: 400px;
+    width: 490px;
+    height: 470px;
     top: 40px;
-    left: 50px;
+    left: 110px;
+    right: 50px;
     z-index: 1
 }
+
+#about h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+}
+
+#about h4 {
+    font-size: 24px;
+    color: #425BB5;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
+
+#about dl dt {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+
+
+
+
 
 
 /* experience section
