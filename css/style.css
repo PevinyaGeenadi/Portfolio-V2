@@ -332,6 +332,8 @@ a.active {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+    position: relative;
+    z-index: 1;
 }
 
 .disply-table {
@@ -359,7 +361,27 @@ h4.animated-header {
     z-index: 1;
 }
 
+/* CV Download Button Styling */
+.btn-cv {
+    display: inline-block;
+    padding: 12px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #4a90e2;
+    text-transform: uppercase;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    margin-top: 20px;
+    animation: fadeInUp 1.5s ease-in-out;
+    cursor: pointer;
+}
 
+.btn-cv:hover {
+    background-color: darkblue;
+    color: #fff;
+}
 
 /* about section
 ==================================================*/
