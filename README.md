@@ -25,7 +25,7 @@ This personal portfolio website serves as a platform to present my **projects**,
 - **Site Map**: [View here](https://www.gloomaps.com/gvD6NyzHVG)
 - **Wireframe**: [View here](https://wireframe.cc/pro/pp/df568048d665887)
 - **Mockup**: [Figma Design](https://www.figma.com/file/wKD2CGtQ4CYkiqJM14VMXX/Pevinya?type=design&mode=design&t=5tGmanMhvm79GCxB-1)
-- **Live Demo**: [Portfolio Website](https://pevinyageenadi.github.io/Myportfolio/)
+- **Live Demo**: [Portfolio Website](https://geenadi.netlify.app/)
 
 ---
 
