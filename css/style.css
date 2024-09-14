@@ -326,18 +326,39 @@ a.active {
     background: url(../img/portfolio/bg13.png);
     background-size: cover;
     height: 100vh;
-    color: #fff;
 }
 
 .table-cell {
     display: table-cell;
     vertical-align: middle;
+    text-align: center;
 }
 
 .disply-table {
     display: table;
     height: 100vh;
 }
+
+h4.animated-header {
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+#home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0.1, 0.1); /* Darken the image */
+    z-index: 1;
+}
+
 
 
 /* about section
