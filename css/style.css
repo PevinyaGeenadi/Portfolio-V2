@@ -457,8 +457,6 @@ h4.animated-header {
     letter-spacing: 3px;
 }
 
-
-
 .experience-row h3 {
     font-family: 'Lato', sans-serif;
     text-transform: capitalize;
@@ -594,6 +592,7 @@ h4.animated-header {
     font-size: 30px;
     margin-bottom: 30px;
     display: inline-block;
+
 }
 
 .portfolio .categories-grid .categories ul li {
@@ -669,6 +668,7 @@ h4.animated-header {
     -webkit-transition: all .3s ease-in-out .3s;
     transition: all .3s ease-in-out .3s;
     opacity: 0;
+
 }
 
 .portfolio_item .portfolio_item_hover .item_info em {
@@ -768,6 +768,9 @@ h4.animated-header {
     font-size: 40px;
     line-height: 50px;
 }
+.size-50{
+    text-transform: uppercase;
+}
 
 
 /* contact
@@ -777,6 +780,25 @@ h4.animated-header {
     padding: 100px 0;
     background: #f3f3f3
 }
+#contact h1.size-50 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#contact h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #425BB5; /* Aligning with your button and message colors */
+}
+#contact p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
 
 #contact-form input,
 #contact-form textarea {
@@ -784,6 +806,7 @@ h4.animated-header {
     margin-bottom: 10px;
     border-radius: 0;
 }
+
 
 #contact-form label {
     display: block;
