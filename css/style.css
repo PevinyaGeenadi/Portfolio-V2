@@ -410,9 +410,11 @@ h4.animated-header {
 }
 
 #about h1 {
-    font-size: 50px;
+    font-size: 2.5em;
     font-weight: bold;
     color: #333;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 #about h4 {
@@ -433,23 +435,29 @@ h4.animated-header {
 }
 
 
-
-
-
-
-
-/* experience section
+/* Education section
 ==================================================*/
 
 #experience {
     padding: 100px 0;
-    background: #f3f3f3
+    background: #f3f3f3;
 }
 
 .experience-row {
     padding: 20px 0;
     border-bottom: 1px solid #ddd;
 }
+#experience h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #425BB5;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
 
 .experience-row h3 {
     font-family: 'Lato', sans-serif;
@@ -478,7 +486,7 @@ h4.animated-header {
 }
 
 .timeline:before {
-    background-color: black;
+    background-color: #ddd;
     content: '';
     margin-left: -1px;
     position: absolute;
@@ -490,6 +498,7 @@ h4.animated-header {
 
 .timeline-event {
     position: relative;
+
 }
 
 .timeline-event:hover .timeline-event-icon {
@@ -503,20 +512,29 @@ h4.animated-header {
 }
 
 .timeline-event-copy {
-    padding: 2em;
+    padding: 1.5em 2em;
     position: relative;
     top: -1.875em;
+    margin-bottom: 1.875em;
     left: 4em;
-    width: 100%;
+    width: calc(100% - 5em);
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
 }
 
+
 .timeline-event-copy h3 {
+    font-family: 'Lato', sans-serif;
     font-size: 1.75em;
+    color: #333;
+    font-weight: bold;
 }
 
 .timeline-event-copy h4 {
     font-size: 1.2em;
     margin-bottom: 1.2em;
+
 }
 
 .timeline-event-copy strong {
@@ -525,6 +543,7 @@ h4.animated-header {
 
 .timeline-event-copy p:not(.timeline-event-thumbnail) {
     padding-bottom: 1.2em;
+    color: #555;
 }
 
 .timeline-event-icon {
@@ -543,6 +562,7 @@ h4.animated-header {
     left: 2em;
     width: 1em;
     height: 1em;
+
 }
 
 .timeline-event-thumbnail {
