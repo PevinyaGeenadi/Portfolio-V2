@@ -2,7 +2,7 @@
 
 Welcome to **Pevinya Geenadi's Portfolio**! This website showcases my projects, education, and journey in my academic life. Explore my work and feel free to reach out for collaboration! 🚀
 
-## 📍 [Visit My Portfolio](https://pevinya.netlify.app/)
+## 📍 [Visit My Portfolio](https://geenadi.netlify.app/)
 
 ---
 
@@ -54,7 +54,7 @@ Follow these steps to run the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/PevinyaGeenadi/Myportfolio.git
+   git clone https://github.com/PevinyaGeenadi/Portfolio-V2.git
 
 2. Run the project:
    ```bash
@@ -62,7 +62,7 @@ Follow these steps to run the project locally:
    ```
 
 ## 📸 Screenshots
-<img src="assets/screenshot.png" alt="Portfolio Screenshot" width="700" />
+<img src="ss.png" alt="Portfolio Screenshot" width="700" />
 
 
 ## 🤝 Connect With Me
