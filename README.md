@@ -62,7 +62,7 @@ Follow these steps to run the project locally:
    ```
 
 ## 📸 Screenshots
-<img src="ss.png" alt="Portfolio Screenshot" width="700" />
+<img src="img/sss.png" alt="Portfolio Screenshot" width="700" />
 
 
 ## 🤝 Connect With Me
